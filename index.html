@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Project Challenge</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Zomboid Challenges 🧟</h1>
+        <p class="subtitle">Randomised challenges to complete on a Zomboid road trip scenario. For Example: spawn in Echo Creek and drive to Louisville Airport</p>
+
+        <div class="start-screen" id="startScreen">
+            <button class="start-btn" id="startBtn">Get My Challenges</button>
+        </div>
+
+        <div class="challenges-screen" id="challengesScreen">
+            <div class="section-header">
+                <h2>🎯 Before The Trip</h2>
+                <p>Complete this challenge before you hit the road</p>
+            </div>
+            <div id="beforeTripChallenge"></div>
+
+            <div class="section-header">
+                <h2>🚗 On The Road</h2>
+                <p>Complete this challenge while traveling</p>
+            </div>
+            <div id="onRoadChallenge"></div>
+
+            <div class="section-header">
+                <h2>⭐ Special Challenge</h2>
+                <p>Your bonus challenge for extra points</p>
+            </div>
+            <div id="specialChallenge"></div>
+
+            <div class="score-panel">
+                <div class="score-label">Total Score</div>
+                <div class="score-value" id="scoreValue">0 points</div>
+                <button class="reset-btn" id="resetBtn">Reset Session</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
